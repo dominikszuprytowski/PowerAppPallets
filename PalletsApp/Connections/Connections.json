@@ -12,7 +12,7 @@
         "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
         "apiVer": 2,
         "appVer": "3.23123.15",
-        "modifiedOn": "2024-01-12 20:44:36",
+        "modifiedOn": "2024-01-12 21:37:21",
         "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[oferty]\":[\"post\",\"patch\",\"get\"],\"[dbo].[rodzajpalety]\":[\"get\"],\"[dbo].[stanpalet]\":[\"get\"],\"[dbo].[kursy]\":[\"get\"],\"[dbo].[cennik]\":[\"get\"],\"[dbo].[typ_uslugi]\":[\"get\"]}}",
         "version": 1
       },
@@ -74,7 +74,7 @@
         "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
         "apiVer": 2,
         "appVer": "3.23123.15",
-        "modifiedOn": "2024-01-12 20:44:36",
+        "modifiedOn": "2024-01-12 21:37:21",
         "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[zleceniodawcy]\":[\"post\",\"patch\",\"get\"]}}",
         "version": 1
       },
