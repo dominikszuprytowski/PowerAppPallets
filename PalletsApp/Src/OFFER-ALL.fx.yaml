@@ -2536,7 +2536,13 @@
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(31, 31, 31, 1)
         HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
-        OnSelect: =SubmitForm(Form3) & NewForm(Form3)
+        OnSelect: |-
+            =Concurrent(  Patch(
+                oferty,
+                LookUp(oferty, nr_zamowienia = DataCardValue27.Text),
+                { status: "Wyslane do realizacji" }
+            ),
+            SubmitForm(Form3) & NewForm(Form3))
         PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
         PressedColor: =RGBA(31, 31, 31, 1)
         PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
