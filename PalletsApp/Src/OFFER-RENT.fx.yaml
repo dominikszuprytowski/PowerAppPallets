@@ -1357,7 +1357,6 @@
                 Color: =RGBA(255, 255, 255, 1)
                 Default: |-
                     =If(DataCardValue59.SelectedDate < DataCardValue56_1.SelectedDate,0,
-                        
                         Switch(
                         DataCardValue36_2.Selected.stan,
                         "Nowa", Abs(DateDiff(DataCardValue56_1.SelectedDate, DataCardValue59.SelectedDate, TimeUnit.Days)) * 2,

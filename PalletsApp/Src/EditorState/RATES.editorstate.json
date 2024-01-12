@@ -365,7 +365,7 @@
       "MetaDataIDKey": "",
       "Name": "Icon2_6",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -610,7 +610,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "Image5_1": {
+    "Image7": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Image",
@@ -652,9 +652,9 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Image5_1",
+      "Name": "Image7",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

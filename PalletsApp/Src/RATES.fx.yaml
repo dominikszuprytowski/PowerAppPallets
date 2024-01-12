@@ -34,29 +34,11 @@ RATES As screen:
         Y: =8
         ZIndex: =2
 
-    Image5_1 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =61
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: ='edit (1)'
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =92
-        X: =1022
-        Y: =11
-        ZIndex: =3
-
     TextInput3_6 As text:
         BorderColor: =RGBA(31, 31, 31, 1)
         BorderThickness: =2
         Color: =RGBA(31, 31, 31, 1)
-        Default: ="EDYCJA ZLECENIA"
+        Default: ="TARYFY"
         DisabledBorderColor: =RGBA(255, 200, 61, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -64,7 +46,7 @@ RATES As screen:
         Fill: =RGBA(255, 200, 61, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Lato Black'
-        Height: =39
+        Height: =41
         HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =RGBA(31, 31, 31, 1)
@@ -76,8 +58,8 @@ RATES As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Size: =13
-        Width: =226
-        X: =1129
+        Width: =138
+        X: =1216
         Y: =20
         ZIndex: =4
 
@@ -168,4 +150,22 @@ RATES As screen:
             X: =0
             Y: =0
             ZIndex: =4
+
+    Image7 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =68
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: ='price-list'
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =68
+        X: =1133
+        Y: =6
+        ZIndex: =6
 
