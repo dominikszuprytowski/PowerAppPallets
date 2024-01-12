@@ -10,10 +10,9 @@
       "displayName": "SQL Server",
       "executionRestrictions": {
         "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
-        "apiVer": 2,
         "appVer": "3.23123.15",
-        "modifiedOn": "2024-01-12 21:37:21",
-        "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[oferty]\":[\"post\",\"patch\",\"get\"],\"[dbo].[rodzajpalety]\":[\"get\"],\"[dbo].[stanpalet]\":[\"get\"],\"[dbo].[kursy]\":[\"get\"],\"[dbo].[cennik]\":[\"get\"],\"[dbo].[typ_uslugi]\":[\"get\"]}}",
+        "modifiedOn": "2024-01-12 22:24:29",
+        "policy": "{\"type\":\"unused\"}",
         "version": 1
       },
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1670/1.0.1670.3526/sql/icon.png",
@@ -72,10 +71,9 @@
       "displayName": "SQL Server",
       "executionRestrictions": {
         "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
-        "apiVer": 2,
         "appVer": "3.23123.15",
-        "modifiedOn": "2024-01-12 21:37:21",
-        "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[zleceniodawcy]\":[\"post\",\"patch\",\"get\"]}}",
+        "modifiedOn": "2024-01-12 22:24:29",
+        "policy": "{\"type\":\"unused\"}",
         "version": 1
       },
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1670/1.0.1670.3526/sql/icon.png",
