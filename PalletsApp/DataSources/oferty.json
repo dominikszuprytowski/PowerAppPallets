@@ -1,0 +1,48 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sql",
+    "CdpRevision": {
+      "BaseUrl": "/v2",
+      "LastChangedTimeString": "2024-01-08T17:54:08.3670000Z",
+      "RevisionNumber": 2
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "cena_eur": "cena_eur",
+      "cena_j": "cena_j",
+      "cena_pln": "cena_pln",
+      "cena_usd": "cena_usd",
+      "czas_wyn": "czas_wyn",
+      "data_pod": "data_pod",
+      "data_zamowienia": "data_zamowienia",
+      "data_zwr": "data_zwr",
+      "dostepnosc": "dostepnosc",
+      "eta_dost": "eta_dost",
+      "handlowiec": "handlowiec",
+      "id_rodzaj_p": "id_rodzaj_p",
+      "id_stan": "id_stan",
+      "id_zamowienia": "id_zamowienia",
+      "id_zleceniodawcy": "id_zleceniodawcy",
+      "ilosc": "ilosc",
+      "miejsce_pod": "miejsce_pod",
+      "nr_zamowienia": "nr_zamowienia",
+      "rodzaj_p": "rodzaj_p",
+      "rodzaj_uslugi": "rodzaj_uslugi",
+      "stan_p": "stan_p",
+      "status": "status",
+      "transport_klienta": "transport_klienta",
+      "trasa_do": "trasa_do",
+      "trasa_do_m": "trasa_do_m",
+      "typ_usl": "typ_usl",
+      "udzwig": "udzwig",
+      "uslugi_dodatkowe": "uslugi_dodatkowe",
+      "wymiary": "wymiary",
+      "zleceniodawca": "zleceniodawca"
+    },
+    "DatasetName": "paletyserver.database.windows.net,paletydb",
+    "EncodeDataset": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "oferty",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "21cd7384-995f-4e11-a22d-6ffaa4a2f8e0": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write"
+    ],
+    "connectionRef": {
+      "apiTier": "Premium",
+      "authenticationType": "sqlAuthentication",
+      "displayName": "SQL Server",
+      "executionRestrictions": {
+        "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
+        "apiVer": 2,
+        "appVer": "3.23123.15",
+        "modifiedOn": "2024-01-12 20:44:36",
+        "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[oferty]\":[\"post\",\"patch\",\"get\"],\"[dbo].[rodzajpalety]\":[\"get\"],\"[dbo].[stanpalet]\":[\"get\"],\"[dbo].[kursy]\":[\"get\"],\"[dbo].[cennik]\":[\"get\"],\"[dbo].[typ_uslugi]\":[\"get\"]}}",
+        "version": 1
+      },
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1670/1.0.1670.3526/sql/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sql",
+      "parameterHints": {},
+      "parameterHintsV2": {},
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/b9c003c4388940b28576263bde513932"
+    },
+    "datasets": {
+      "paletyserver.database.windows.net,paletydb": {
+        "dataSources": {
+          "cennik": {
+            "tableName": "[dbo].[cennik]"
+          },
+          "kursy": {
+            "tableName": "[dbo].[kursy]"
+          },
+          "oferty": {
+            "tableName": "[dbo].[oferty]"
+          },
+          "rodzajpalety": {
+            "tableName": "[dbo].[rodzajpalety]"
+          },
+          "stanpalet": {
+            "tableName": "[dbo].[stanpalet]"
+          },
+          "typ_uslugi": {
+            "tableName": "[dbo].[typ_uslugi]"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "oferty",
+      "rodzajpalety",
+      "stanpalet",
+      "kursy",
+      "cennik",
+      "typ_uslugi"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "endpoints": [
+      "paletyserver.database.windows.net,paletydb"
+    ],
+    "id": "21cd7384-995f-4e11-a22d-6ffaa4a2f8e0"
+  },
+  "34c98bd4-9211-442b-9023-5fda3493430e": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write"
+    ],
+    "connectionRef": {
+      "apiTier": "Premium",
+      "authenticationType": "sqlAuthentication",
+      "displayName": "SQL Server",
+      "executionRestrictions": {
+        "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
+        "apiVer": 2,
+        "appVer": "3.23123.15",
+        "modifiedOn": "2024-01-12 20:44:36",
+        "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[zleceniodawcy]\":[\"post\",\"patch\",\"get\"]}}",
+        "version": 1
+      },
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1670/1.0.1670.3526/sql/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sql",
+      "parameterHints": {},
+      "parameterHintsV2": {},
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/34178160a9b2461e952a3cb231131bc5"
+    },
+    "datasets": {
+      "paletyserver.database.windows.net,paletydb": {
+        "dataSources": {
+          "zleceniodawcy": {
+            "tableName": "[dbo].[zleceniodawcy]"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "zleceniodawcy"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "endpoints": [
+      "paletyserver.database.windows.net,paletydb"
+    ],
+    "id": "34c98bd4-9211-442b-9023-5fda3493430e"
+  }
+}

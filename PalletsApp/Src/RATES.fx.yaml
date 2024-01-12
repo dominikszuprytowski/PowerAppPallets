@@ -1,0 +1,171 @@
+RATES As screen:
+    Fill: =RGBA(31, 31, 31, 1)
+    LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
+
+    Rectangle5_6 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(255, 200, 61, 1)
+        FocusedBorderThickness: =4
+        Height: =80
+        HoverFill: =RGBA(255, 200, 61, 1)
+        PressedFill: =RGBA(255, 200, 61, 1)
+        Width: =1366
+        ZIndex: =1
+
+    Icon2_6 As icon.BackArrow:
+        BorderColor: =RGBA(109, 109, 109, 1)
+        Color: =RGBA(31, 31, 31, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(START)
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        X: =8
+        Y: =8
+        ZIndex: =2
+
+    Image5_1 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =61
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: ='edit (1)'
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =92
+        X: =1022
+        Y: =11
+        ZIndex: =3
+
+    TextInput3_6 As text:
+        BorderColor: =RGBA(31, 31, 31, 1)
+        BorderThickness: =2
+        Color: =RGBA(31, 31, 31, 1)
+        Default: ="EDYCJA ZLECENIA"
+        DisabledBorderColor: =RGBA(255, 200, 61, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(255, 200, 61, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Lato Black'
+        Height: =39
+        HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(31, 31, 31, 1)
+        PressedBorderColor: =RGBA(255, 200, 61, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(31, 31, 31, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =13
+        Width: =226
+        X: =1129
+        Y: =20
+        ZIndex: =4
+
+    DataTable1 As dataTable.datatable:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.Solid
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        HeadingColor: =RGBA(31, 31, 31, 1)
+        HeadingFill: =RGBA(255, 200, 61, 1)
+        HeadingFont: =Font.'Segoe UI'
+        HeadingFontWeight: =FontWeight.Normal
+        HeadingSize: =13
+        Height: =658
+        HoverColor: =RGBA(31, 31, 31, 1)
+        HoverFill: =RGBA(255, 200, 61, 1)
+        InputFill: =RGBA(31, 31, 31, 1)
+        InvertedColor: =RGBA(31, 31, 31, 1)
+        Items: =cennik
+        LinkColor: =RGBA(0, 134, 208, 1)
+        PrimaryColor1: =RGBA(255, 200, 61, 1)
+        PrimaryColor2: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+        PrimaryColor3: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+        SelectedColor: =RGBA(255, 255, 255, 1)
+        SelectedFill: =RGBA(255, 200, 61, .2)
+        Size: =13
+        Width: =822
+        X: =241
+        Y: =91
+        ZIndex: =5
+
+        id_cennik_Kolumna1 As dataTableColumn.numberColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Id"
+            FieldName: ="id_cennik"
+            FieldVariantName: ="numberColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.id_cennik
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        rodzaj_p_Kolumna1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Rodzaj palety"
+            FieldName: ="rodzaj_p"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.rodzaj_p
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =2
+
+        stan_p_Kolumna1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Stan palet"
+            FieldName: ="stan_p"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: =ThisItem.stan_p
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =3
+
+        cena_j_Kolumna1 As dataTableColumn.numberColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Cena jednostkowa"
+            FieldName: ="cena_j"
+            FieldVariantName: ="numberColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =4
+            Text: =ThisItem.cena_j
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =4
+
